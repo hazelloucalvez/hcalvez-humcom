@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="H.Calvez">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Form Elements</title>
+    </head>
+    <body>
+        <form>
+            <table align="center" width="80%">
+                <tr>
+                    <td><label for="fname">First Name</label></td>
+                    <td><input type="text" id="fname" size="50" required></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number</label></td>
+                    <td><input type="tel" size="15" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></td>
+                </tr>
+                <tr>
+                    <td><label>Phone Number</label></td>
+                    <td><input type="tel" size="15" placeholder="+xxx-0xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}-[0-9]{4}" required></td>
+                </tr>
+                <tr>
+                    <td><label for="pwd">Password</label></td>
+                    <td><input type="password" id="pwd" size="25" maxlength="15" minlength="8" required></td>
+                </tr>
+                <tr>
+                    <td><label for="bday">Birthday</label></td>
+                    <td><input type="date" id="bday" min="2000-01-01" max="2005-01-01" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><select id="gender" name="gender">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="course">Course</label></td>
+                    <td><input type="radio" id="course" name="course" value="BSIT"><label>BSIT</label>
+                        <input type="radio" id="course" name="course" value="BSCS"><label>BSCS</label>
+                        <input type="radio" id="course" name="course" value="BSCE"><label>BSCE</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="hob">Hobbies</label></td>
+                    <td><input type="checkbox" id="hob" name="hobby1" value="Music"><label>Music</label>
+                        <input type="checkbox" id="hob" name="hobby2" value="Sports"><label>Sports</label>
+                        <input type="checkbox" id="hob" name="hobby3" value="Games"><label>Games</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
