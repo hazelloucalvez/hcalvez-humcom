@@ -22,7 +22,9 @@ p {
     font-size: 100%;
 }
 header {    
-    font-size: "55px";
+    font-size: 255%;
+    text-align: center;
+    color: rgb(136, 101, 12);
 }
 ul, li{    
     font-size: 80%;
