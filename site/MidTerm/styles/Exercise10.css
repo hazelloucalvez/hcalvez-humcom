@@ -65,6 +65,16 @@ article, footer, .sec{
     background-position: top left;
     background-size:  1500px;
 }
+.two{
+    background-image: url(https://hazelloucalvez.github.io/hcalvez-humcom/site/assets/exercise10/paramore.jpg);
+    background-position: center;
+    background-size:  900px;
+}
+.three{
+    background-image: url(https://hazelloucalvez.github.io/hcalvez-humcom/site/assets/exercise10/banana.jpg);
+    background-position: center;
+    background-size:  900px;
+}
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 28px;
