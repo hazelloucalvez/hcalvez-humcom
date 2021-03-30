@@ -14,7 +14,7 @@ body{
     display:inline-block;    
     position: relative; 
 }
-#headerContent, .h1, .h2, .f1, .f3, .hr2, .f2{
+#headerContent, .h1, .h2, .f1, .f3, .hr2, .f2, .f4{
     width: 95%;
     height: 10%;
     border: 1.5pt #790812 solid;
