@@ -9,27 +9,31 @@ body{
 }
 #mainContent{    
     width: 760px;
-    height: 900px;    
+    height: 1000px;    
     border: 3pt #000000 solid;
     display:inline-block;    
     position: relative; 
+    background-color: rgba(61, 184, 189, 0.89);
 }
-#headerContent, .h1, .h2, .f1, .f3, .hr2, .f2, .f4{
+#headerContent, .h1, .h2, .f1, .f3, .hr2, .f2{
     width: 95%;
     height: 10%;
     border: 1.5pt #790812 solid;
+    background-color: rgba(165, 177, 243, 0.911);
 }
 .nav{
     width: 95%;
     height: 40%;
     border: 1.5pt #4e5058 solid;
+    background-color: rgb(211, 217, 238);
 }
 #leftContent, #rightContent{
-    height: 80%; 
+    height: 70%; 
     float:left; 
     margin: 2.5%;
     position: relative;    
     border: 2pt #532a0f solid;
+    background-color: rgb(164, 224, 216);
 }
 #leftContent{
     width: 32.5%;
@@ -41,16 +45,19 @@ body{
     width: 95%;
     height: 72%;
     border: 1.5pt #4e5058 solid;
+    background-color: rgb(211, 217, 238);
 }
 article{
     width: 95%;
     height: 35%;
     border: 1.5pt #4e5058 solid;
+    background-color: rgb(173, 219, 171);
 }
 .p1 {
     width: 95%;
     height: 25%;
     border: 1.5pt #4e5058 solid;
+    background-color: rgb(253, 253, 253);
 }
 .p2, .aside{
     width: 45%;
@@ -59,4 +66,13 @@ article{
     margin: 2.5%;
     position: relative;    
     border: 2pt #532a0f solid;
+    background-color: rgb(255, 255, 255);
+}
+.f4{
+    width: 95%;
+    height: 8%;
+    border: 1.5pt #790812 solid;
+    display:inline-block;    
+    position: relative; 
+    background-color: rgba(165, 177, 243, 0.911);
 }
