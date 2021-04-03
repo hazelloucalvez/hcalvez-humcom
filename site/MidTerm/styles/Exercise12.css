@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 5px 0px;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffff;
+}
+body{
+    background-color: rgb(213, 241, 241);
+    width: 95%;
+    margin: auto;
+}
+
+
+header, footer{
+    height: 20%;
+    background-color: #a01919;
+    padding: 15px;
+}
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+.brand, .nav, .tools, .heroF, .heroC, .articleF, .articleL, .sidebarF{
+    display:inline-block; 
+    grid-template-columns: auto auto auto ;
+    background-color: #33645e;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.brand, .tools{
+    height: 40%;
+    width: 20%;
+}
+.nav{
+    height: 40%;
+    width: 59%;
+}
+.hero, .body{
+    width: 74%;
+    background-color: #8f9396;
+    display: inline-block;
+
+}
+.heroF{
+    height: 150px;
+    width: 64%;
+    margin-left:10px;
+    padding: 50px;
+}
+.heroC{
+    height: 150px;
+    width: 34%;
+    margin-left:10px;
+    padding: 50px;
+} 
+.ad{
+    width: 25%;
+    height:208px ;
+    background-color: #8f9396;
+    display: inline block;
+    float:right;
+    text-align: center;
+    padding: 50px;
+}
+
+.articleF{
+    height: 500px;
+    width: 34%;
+    margin-left:10px;
+    padding: 50px;
+}
+.articleL{
+    height: 500px;
+    width: 64%;
+    margin-left:10px;
+    padding: 50px;
+}
+.sidebar{
+    width: 25%;
+    background-color: #8f9396;
+    display: inline-block;
+    float: right;
+}
+.sidebarF{
+    height: 500px;
+    width: 95%;
+    padding: 50px;
+    margin-left:15px;
+}
+@media screen and (max-width:1024px){
+    body{ background-color:darkmagenta;}
+
+}
+@media screen and (max-width:980px){
+    body{ background-color:darkgreen;
+        display: grid;
+        margin: 5px 0px;}
+    .col{width:45%;}
+    .col-1{width:32%;}
+    .ad{height:227px;}
+    .col-5{width:92%;}
+}   
+@media screen and (max-width:768px){
+    body{ background-color:rgb(207, 66, 94);
+        width: 95%;
+        margin: 5px 0px;}
+    .col{width:95%;}
+    .col-1{
+        width:32%;
+        height: fit-content;
+        }
+    header, footer{
+        height: fit-content;
+        width: 95%;
+        float:left;
+    }
+    .ad, .sidebar{width:95%;
+        float:left;}
+}
+@media screen and (max-width:320px){
+    body{ background-color:lightcoral;
+        width: 95%;
+        margin: 5px 0px;}
+    .col{width:95%;}
+    .col-1{
+        width:32%;
+        height: fit-content;
+    }
+    header, footer{
+        height: fit-content;
+        width: 95%;
+        float:left;
+    }
+    .ad, .sidebar{width:95%;
+        float:left;}
+    }
+}
