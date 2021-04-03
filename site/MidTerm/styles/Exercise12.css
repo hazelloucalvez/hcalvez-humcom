@@ -33,7 +33,7 @@ header, footer{
 }
 .nav{
     height: 40%;
-    width: 59%;
+    width: 57%;
     padding: 15px;
 }
 .hero, .body{
@@ -43,7 +43,7 @@ header, footer{
 }
 .heroF{
     height: 150px;
-    width: 64%;
+    width: 60%;
     margin-left:10px;
     padding: 50px;
 }
@@ -71,7 +71,7 @@ header, footer{
 }
 .articleL{
     height: 500px;
-    width: 64%;
+    width: 60%;
     margin-left:10px;
     padding: 50px;
 }
@@ -83,7 +83,7 @@ header, footer{
 }
 .sidebarF{
     height: 500px;
-    width: 95%;
+    width: 90%;
     padding: 50px;
     margin-left:15px;
 }
