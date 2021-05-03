@@ -1,18 +1,18 @@
 *{
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-left: auto;
     margin-right: auto;
 }
 body{
-    background-color: aqua;
+    background-color:#6d1919;
     width: 100%;
 }
 [class*="col-"]{
     float: left;
-    padding: 5px;
-    border: 5px solid black;
+    padding: 10px;
+    border: 2px solid rgb(137, 204, 195);
 }
 .wrapper{
     width:90%;
@@ -21,42 +21,53 @@ body{
     content:"";
     clear: both;
     display: table;
-    margin-bottom: 10px;
+    margin: 10px;
     margin-top: 10px;
+}
+.col-0{
+    float: left;
+    padding: 10px;
+    border: 2px solid rgb(51, 174, 196);
 
 }
-.col-12{
-    width: 100%;
+.header, .hero, .ad, .body, .sidebar, .footer{
+    background-color: rgb(51, 174, 196);
 }
-.col-9{
-    width: 75%;
+.nav,.brand,.hf,.hc,.af,.al,.sf,.tools{
+    background-color: rgb(137, 204, 195);
+    text-align: center;
 }
-.col-7{
-    width:58.333%;
-}
-.col-6{
-    width:50%;
-}
-.col-3{
-    width:25%;
-}
-.col-2{
-    width:16.667%;
-}
-.header,.hero,.body,.sidebar,.footer{
-    background-color: cornflowerblue;
-}
+.col-12{width: 100%;}
+.col-9{width: 75%;}
+.col-8{width:66.667%}
+.col-7{ width:58.333%;}
+.col-6{width:50%;}
+.col-5{width: 41.667%;}
+.col-4{width: 33.333%;}
+.col-3{width:25%;}
+.col-2{width:16.667%;}
+
+
 @media screen and (max-width:1024px){
+    body{ background-color:#6d1919;
 
 }
+@media screen and (max-width:980px){
+    body{ background-color:#a8ad97;}
+    .col-lg-4{width: 33.333%;}
+    .col-lg-6{width:50%;}
+    .col-lg-8{width:66.667%;}
+    .col-lg-12{width: 100%;}
+}   
 @media screen and (max-width:768px){
-    #wrapper{
-        width: 100%;
-    }
-    .col-sm-6{
-        width:50%
-    }
-}
-@media screen and (max-width:600px){
+    body{ background-color:#3f3736;}
+    .col-md-5{width: 41.666%;}
+    .col-md-6{width: 50%;}
+    .col-md-7{width: 58.333%;}
+    .col-md-12{width: 100%;}
     
+}
+@media screen and (max-width:320px){
+    body{ background-color:rgb(234, 218, 208);}
+    .col-sm-12{width:100%}
 }
