@@ -6,13 +6,13 @@
     margin-right: auto;
 }
 body{
-    background-color:#6d1919;
+    background-color:#64482b;
     width: 100%;
 }
 [class*="col-"]{
     float: left;
     padding: 10px;
-    border: 2px solid rgb(137, 204, 195);
+    
 }
 .wrapper{
     width:90%;
@@ -27,15 +27,19 @@ body{
 .col-0{
     float: left;
     padding: 10px;
-    border: 2px solid rgb(51, 174, 196);
+    width: 100%;
+    border: 5px solid rgb(51, 174, 196);
 
 }
 .header, .hero, .ad, .body, .sidebar, .footer{
     background-color: rgb(51, 174, 196);
+    border: 2px solid rgb(137, 204, 195);
 }
 .nav,.brand,.hf,.hc,.af,.al,.sf,.tools{
-    background-color: rgb(137, 204, 195);
+    background-color: #D3E5CF;
     text-align: center;
+    border: 5px solid rgb(51, 174, 196);
+
 }
 .col-12{width: 100%;}
 .col-9{width: 75%;}
@@ -49,8 +53,6 @@ body{
 
 
 @media screen and (max-width:1024px){
-    body{ background-color:#6d1919;
-
 }
 @media screen and (max-width:980px){
     body{ background-color:#a8ad97;}
@@ -65,7 +67,6 @@ body{
     .col-md-6{width: 50%;}
     .col-md-7{width: 58.333%;}
     .col-md-12{width: 100%;}
-    
 }
 @media screen and (max-width:320px){
     body{ background-color:rgb(234, 218, 208);}
