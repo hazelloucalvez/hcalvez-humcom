@@ -11,20 +11,30 @@
             <h1>Student Information Sheet</h1>
             <h2>Personal Info</h2>
             <form id="sheet">
-                First name <input type="text" placeholder="Your first and last name" id="name" name="name"><br><br>
-                Age <input type="number"  id="age"><br><br>
+                First name <input type="text" id="name" name="name" required
+                            placeholder="Your first and last name" ><br><br>
+                Age <input type="number"  id="age" required><br><br>
             
             <h2>Contact Information</h2>
-                Phone number <input type="number" placeholder="09XX XXX XXXX" id="phoneNumber" name="phoneNumber"><br><br>
-                Email Address <input type="email" placeholder="eg. myname@gmail.com" id="email" name="email" ><br><br>
+                Phone number <input type="number" id="phoneNumber" name="phoneNumber" required
+                            placeholder="09XX XXX XXXX" 
+                            size="11" 
+                            ><br><br>
+                Email Address <input type="email" id="email" name="email" required
+                            placeholder="eg. myname@gmail.com"><br><br>
                 Mailing Address <input type="text"  id="address" name="address" ><br><br>
             
                 <h2>Academic Information</h2>
-                Program <input type="text" placeholder="Computer Science" id="program" name="program"><br><br>
-                Idnumber <input type="number" placeholder="20011234" id="IDNumber" name=IDNumber><br><br>
-                Year Level <input type="text" placeholder="5th year" name="yearLevel" id="yearLevel"><br><br>
-                Section <input type="text" placeholder="IAA" id="section" name="section"><br><br>
-                <input type="submit" value="Submit" onclick="alert('Successfuly Submitted!')">
+                Program <input type="text"  id="program" name="program" required
+                            placeholder="Computer Science"><br><br>
+                Idnumber <input type="number" id="IDNumber" name=IDNumber required
+                            placeholder="20011234"
+                            size="8" ><br><br>
+                Year Level <input type="text" name="yearLevel" id="yearLevel" required
+                            placeholder="5th year"><br><br>
+                Section <input type="text" id="section" name="section" required
+                            placeholder="IAA"><br><br>
+                <input type="submit" value="Submit" >
             </form>
 
             <script type="text/javascript" src="/Finals/js/Script15.js"></script>
